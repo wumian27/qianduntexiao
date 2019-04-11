@@ -1,3 +1,6 @@
 flex:布局遇到的bug
 如果子元素设置了flex:1;父级设置justify失效
 windowWidth获取的单位是px;
+
+计算算法是:先计算lists每个一项占有的宽度，下面的线的高度是固定的，
+让线跟list的一项居中，移动距离一个list项
