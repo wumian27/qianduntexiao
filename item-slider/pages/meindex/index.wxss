@@ -1,0 +1,33 @@
+
+.container{
+  width: 100%;
+}
+.container-item{
+  display: flex;
+  align-items: center;
+  height: 95rpx;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+}
+.haibao{
+  flex:1;
+  font-size: 32rpx;
+  color:block;
+  overflow: hidden;
+  white-space: nowrap;
+  
+}
+.selected{
+  flex:1;
+ font-size:34rpx;
+ color:#1AAD19;
+ overflow: hidden;
+ white-space: nowrap;
+}
+
+.mark{
+  width: 150rpx;
+  height: 5rpx;
+  background: #1AAD19;
+}

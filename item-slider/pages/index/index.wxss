@@ -1,0 +1,48 @@
+/* pages/index/index.wxss *//* components/title-tab-item/title-tab-item.wxss */
+
+.title-view-container{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:100rpx;
+    
+    background-color: white;
+  }
+  
+  .title-item-container{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height:95rpx;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .title-item-normal{
+    flex: 1;
+    font-size: 32rpx;
+    color:black;
+    text-align: center;
+  }
+  
+  .title-item-select{
+    flex: 1;
+    font-size: 34rpx;
+    color:#1AAD19;
+    text-align: center;
+  }
+  
+  .title-mark-container{
+    display: flex;
+    flex-direction: column;
+    width:375rpx;
+    height:5rpx;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .title-mark{
+    width:150rpx;
+    height:5rpx;
+    background-color: #1AAD19;
+  }

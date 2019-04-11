@@ -1,0 +1,16 @@
+<!--components/title-tab-item/title-tab-item.wxml-->
+<view class='title-view-container'>
+  <view class='title-item-container'>
+    <block wx:for="{{titles}}" wx:for-item="item" wx:for-index="idx" wx:key="idx">
+      <block wx:if='{{current === idx}}'>
+        <view class='title-item-select' bindtap='onTitleTabItemClick' data-id='{{idx}}'>{{item}}</view>
+      </block>
+      <block wx:else>
+        <view class='title-item-normal' bindtap='onTitleTabItemClick' data-id='{{idx}}'>{{item}}</view>
+      </block>
+    </block>
+  </view>
+  <view class='title-mark-container' style='width:{{750/titles.length}}rpx' animation='{{animationMark}}'>
+    <view class='title-mark'></view>
+  </view>
+</view>
